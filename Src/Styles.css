@@ -1,1 +1,26 @@
 @charset "UTF-8";
+
+
+/* TailWind Start */
+@tailwind base;
+@tailwind components;
+
+
+/* Custom Styles */
+@font-face{
+    font-family:"Vazir";src:url("./../Src/Fonts/Vazir-Medium-FD.ttf")format("truetype"),url("./../Src/Fonts/Vazir-Medium-FD.woff2")format("woff2"),url("./../Src/Fonts/Vazir-Medium-FD.eot")format("opentype");
+}
+*:not(i),*:not(i)::before,*:not(i)::after{
+    font-family:"Vazir";
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-display:swap;
+}
+body{
+    direction:rtl;
+}
+
+
+/* TailWind Last */
+@tailwind utilities;

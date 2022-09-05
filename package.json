@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "Version2 Of CV Project With Tailwind.CSS",
   "scripts": {
-    "start": ""
+    "start": "npx tailwindcss -i ./Src/Styles.css -o ./Dist/Main.css --watch --minify"
   },
   "repository": {
     "type": "git",
