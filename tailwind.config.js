@@ -16,6 +16,9 @@ module.exports= {
       },
       rotate:{
         full:'360deg'
+      },
+      boxShadow:{
+        'CustomInset':'inset 0 0 6px lighten($color:#0e0d0d7b,$amount:3)'
       }
     },
   },
