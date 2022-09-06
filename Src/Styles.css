@@ -27,6 +27,14 @@ body{
     .SocialLogo{
         @apply p-2.5 hover:rotate-full w-10 h-10 bg-secondaryColor hover:shadow-lg hover:-translate-y-1.5 text-slate-200 hover:text-secondaryColor text-lg hover:bg-primaryColor-dark transition-transform ease-out duration-[850ms] flex justify-center items-center rounded-xl hover:rounded-2xl;
     }
+    .ProfileImg{
+        @apply rounded-full shadow-md bg-cover w-full h-full duration-200 object-cover ease-out cursor-pointer transition-transform hover:scale-110 focus:scale-110;
+    }
+    .CustomBorder{
+        @apply relative 
+        before:absolute before:content-[''] before:w-1.5 before:top-1/2 before:-translate-y-1/2 before:h-2/6 before:right-0 before:bg-yellow-300 before:rounded-bl-2xl before:rounded-tl-2xl 
+        after:absolute after:content-[''] after:w-1.5 after:top-1/2 after:-translate-y-1/2 after:h-2/6 after:left-0 after:bg-yellow-300 after:rounded-br-2xl after:rounded-tr-2xl;
+    }
 }
 
 
