@@ -8,7 +8,14 @@ module.exports= {
   theme: {
     extend: {
       colors:{
-        'primaryColor':'#d6e6e5'
+        'primaryColor':{
+          dark:'#198a82',
+          main:'#67bcb6',
+        },
+        'secondaryColor':'#ca9a5f',
+      },
+      rotate:{
+        full:'360deg'
       }
     },
   },

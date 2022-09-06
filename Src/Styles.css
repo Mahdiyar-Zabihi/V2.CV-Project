@@ -22,5 +22,13 @@ body{
 }
 
 
+/* Custom Components */
+@layer components{
+    .SocialLogo{
+        @apply p-2.5 hover:rotate-full w-10 h-10 bg-secondaryColor hover:shadow-lg hover:-translate-y-1.5 text-slate-200 hover:text-secondaryColor text-lg hover:bg-primaryColor-dark transition-transform ease-out duration-[850ms] flex justify-center items-center rounded-xl hover:rounded-2xl;
+    }
+}
+
+
 /* TailWind Last */
 @tailwind utilities;
