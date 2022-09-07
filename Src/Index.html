@@ -19,7 +19,7 @@
         <link rel="icon" type="image/png" href="./Imgs/FavIcon.png">
         <link rel="shortcut icon" type="image/png" href="./Imgs/FavIcon.png">
     </head>
-    <body class="flex flex-col relative flex-wrap min-h-screen">
+    <body class="flex bg-slate-300 flex-col relative flex-wrap min-h-screen">
         <!-- Header-Component Start -->
         <header class="CustomBorder justify-self-start container mx-auto pb-0 flex flex-row flex-wrap rounded-b-xl justify-between shadow-xl p-3 space-x-3 bg-primaryColor-main">
             <div class="bg-secondaryColor w-[110%] -mt-1 text-slate-50 mb-1.5 p-1.5 rounded-md order-1">
@@ -39,27 +39,36 @@
                         
         <!-- Middle-Component Start -->
         <section class="space-y-8 my-8">
-            <!-- <div class="container p-3.5 mx-auto flex flex-wrap flex-col">
-                <h2 class="font-bold inline text-2xl w-2/12 basis-2/12"> ارتباط : </h2>
-                <div class="bg-red-500 space-y-3 inline w-10/12 p-2 basis-10/12 justify-self-end">
-                    <div class="bg-yellow-100">
-                        <span> ایمیل : </span>
-                        <span> mahdiyarzabihi2000@gmail.com </span>
+            <div class="container p-3.5 mx-auto flex flex-wrap flex-row">
+                <h2 class="flex-initial w-5/12 font-bold text-center sm:text-start text-2xl md:text-3xl text-primaryColor-main"> اطلاعات : </h2>
+                <div class="p-4 mb-3 flex-initial w-7/12">
+                    <div class="w-full flex flex-row flex-wrap justify-around items-center">
+                        <span class=""> ایمیل : </span>
+                        <span> mahdiyarzabihi@gmail.com </span>
                     </div>
-                    <div class="bg-yellow-100">
-                        <span> شماره تماس : </span>
-                        <span> <a class="font-sans" href="tel:+989944792282"> 09944792282 </a></span>
+                    <div class="w-full flex flex-row flex-wrap justify-around">
+                        <span class="text-start"> آدرس : </span>
+                        <span> تهران - شهرآرا </span>
                     </div>
-                    <div class="bg-yellow-100">
-                        <span> آدرس : </span>
-                        <span> تهران ، شهرآرا </span>
+                    <div class="w-full flex flex-row flex-wrap justify-around">
+                        <span class="text-start"> سن : </span>
+                        <span> 14 </span>
+                    </div>
+                    <div class="w-full flex flex-row flex-wrap justify-around">
+                        <span class="text-start"> شماره تماس : </span>
+                        <span><a href="tel:+989944792282"> 09944792282 </a></span>
+                    </div>
+                    <div class="w-full flex flex-row flex-wrap justify-around">
+                        <span class="text-start"> متولد : </span>
+                        <span> آبان - سال 1387 </span>
                     </div>
                 </div>
-                <span class="block w-8/12 p-0.5 shadow-lg min-h-0.5 bg-primaryColor-main mx-auto mt-4 rounded-lg"></span>
-            </div> -->
+                <br>
+                <span class="block w-10/12 p-0.5 shadow-lg min-h-0.5 bg-primaryColor-main mx-auto rounded-lg"></span>
+            </div>
 
             <div class="container p-3.5 mx-auto">
-                <h2 class="font-bold text-2xl text-primaryColor-main"> درباره من : </h2>
+                <h2 class="font-bold text-center sm:text-start text-2xl md:text-3xl text-primaryColor-main"> درباره من : </h2>
                 <div class="mx-7 my-3 text-center text-lg font-medium">
                     مهدیار ذبیحی هستم، متولد آبان سال 1387 در تهران، برنامه نویس وب و موبایل. حدود یکسال و نیم پیش ( سال 1399 ) برنامه نویسی رو با پایتون شروع کردم و در حال حاضر درحال استفاده از جاوااسکریپت هستم. علاقه مند به فیلم و Rust. اطلاعات بیشتر در ادامه صفحه...
                 </div>
@@ -67,7 +76,7 @@
             </div>
 
             <div class="container p-3.5 mx-auto">
-                <h2 class="font-bold text-center sm:text-start text-2xl text-primaryColor-main"> مهارت ها : </h2>
+                <h2 class="font-bold text-center sm:text-start text-2xl md:text-3xl text-primaryColor-main"> مهارت ها : </h2>
                 <div class="grid gap-3 mx-5 my-4 auto-rows-fr md:grid-cols-3 md:auto-cols-fr sm:grid-cols-2 lg:grid-cols-4">
                     <div class="flex shadow-2xl rounded-lg flex-row flex-wrap p-1.5 hover:scale-105 duration-200 ease-in">
                         <div class="flex w-full mx-3.5 justify-between">
