@@ -19,19 +19,19 @@
         <link rel="icon" type="image/png" href="./Imgs/FavIcon.png">
         <link rel="shortcut icon" type="image/png" href="./Imgs/FavIcon.png">
     </head>
-    <body class="flex bg-slate-300 flex-col relative flex-wrap min-h-screen">
+    <body class="flex flex-col relative flex-wrap min-h-screen">
         <!-- Header-Component Start -->
-        <header class="CustomBorder justify-self-start container mx-auto pb-0 flex flex-row flex-wrap rounded-b-xl justify-between shadow-xl p-3 space-x-3 bg-primaryColor-main">
-            <div class="bg-secondaryColor w-[110%] -mt-1 text-slate-50 mb-1.5 p-1.5 rounded-md order-1">
+        <header class="CustomBorder justify-self-start mx-3 md:container md:mx-auto pb-0 flex flex-row flex-wrap rounded-b-xl justify-between shadow-xl p-2.5 space-x-3 bg-primaryColor-main">
+            <div class="bg-secondaryColor w-[95%] mx-auto -mt-1 text-slate-50 mb-1.5 p-1.5 rounded-md order-1">
                 <p class="sm:mr-5 text-center sm:text-start text-sm sm:text-xl font-medium mb-1.5"> وبسایت رزومه </p>
             </div>
-            <div class="p-4 sm:mr-12 w-full sm:w-auto text-center sm:order-2 -mt-5 sm:mt-5 order-3 xl:mr-28">
-                <a href="/" class="cursor-pointer"><h1 class="text-4xl sm:mr-7 font-bold text-white xl:text-8xl"> مهدیار ذبیحی </h1></a>
-                <h2 class="text-xl sm:-mr-3 text-slate-800"> برنامه نویس وب و موبایل </h2>
+            <div class="p-4 sm:mr-12 w-full sm:w-auto text-center sm:order-2 -mt-8 sm:mt-5 order-3 xl:mr-28 animate-ShowOnBottom sm:animate-ShowOnRight">
+                <a href="/" class="cursor-pointer"><h1 class="text-4xl sm:mr-6 font-bold text-white xl:mr-16 xl:text-6xl"> مهدیار ذبیحی </h1></a>
+                <h2 class="text-xl sm:-mr-3 text-slate-800 xl:text-3xl xl:-mr-4"> برنامه نویس وب و موبایل </h2>
             </div>
-            <div class="mx-auto sm:ml-10 flex justify-center items-center w-full sm:w-auto sm:order-3 order-2">
-                <div class="overflow-hidden rounded-full -translate-y-5 sm:ml-10 xl:ml-28 sm:-translate-y-9 h-24 w-24 sm:w-40 sm:h-40 border-4 border-secondaryColor border-solid">
-                    <img class="ProfileImg" src="./Imgs/Logo.jpg" alt="Mahdiyar Zabihi" title="Mahdiyar Zabihi">
+            <div class="mx-auto animate-ShowOnTop sm:animate-ShowOnLeft sm:ml-8 flex justify-center items-center w-full sm:w-auto sm:order-3 order-2">
+                <div class="overflow-hidden rounded-full -translate-y-5 sm:ml-8 xl:ml-28 sm:-translate-y-9 h-24 w-24 sm:w-40 sm:h-40 xl:h-48 xl:w-48 border-2 sm:border-4 border-secondaryColor border-solid">
+                    <img class="ProfileImg select-none" src="./Imgs/Logo.jpg" alt="Mahdiyar Zabihi" title="Mahdiyar Zabihi">
                 </div>
             </div>
         </header>
@@ -39,27 +39,27 @@
                         
         <!-- Middle-Component Start -->
         <section class="space-y-8 my-8">
-            <div class="container p-3.5 mx-auto flex flex-wrap flex-row">
-                <h2 class="flex-initial w-5/12 font-bold text-center sm:text-start text-2xl md:text-3xl text-primaryColor-main"> اطلاعات : </h2>
-                <div class="p-4 mb-3 flex-initial w-7/12">
-                    <div class="w-full flex flex-row flex-wrap justify-around items-center">
-                        <span class=""> ایمیل : </span>
+            <div class="container p-3 mx-auto flex flex-wrap flex-row md:flex-col">
+                <h2 class="flex-initial md:w-5/12 w-full font-bold text-center sm:text-start text-2xl md:text-3xl text-primaryColor-main"> اطلاعات : </h2>
+                <div class="px-0 py-5 md:p-4 md:-mt-6 -mb-3 md:ml-16 flex-initial w-full md:w-7/12 md:self-end">
+                    <div class="w-full flex flex-row text-center flex-wrap justify-between items-center">
+                        <span class="font-bold text-sm md:text-lg"> ایمیل : </span>
                         <span> mahdiyarzabihi@gmail.com </span>
                     </div>
-                    <div class="w-full flex flex-row flex-wrap justify-around">
-                        <span class="text-start"> آدرس : </span>
+                    <div class="w-full flex flex-row mt-1 text-center flex-wrap justify-between items-center">
+                        <span class="font-bold text-sm md:text-lg"> آدرس : </span>
                         <span> تهران - شهرآرا </span>
                     </div>
-                    <div class="w-full flex flex-row flex-wrap justify-around">
-                        <span class="text-start"> سن : </span>
+                    <div class="w-full flex flex-row mt-1 text-center flex-wrap justify-between items-center">
+                        <span class="font-bold text-sm md:text-lg"> سن : </span>
                         <span> 14 </span>
                     </div>
-                    <div class="w-full flex flex-row flex-wrap justify-around">
-                        <span class="text-start"> شماره تماس : </span>
+                    <div class="w-full flex flex-row mt-1 text-center flex-wrap justify-between items-center">
+                        <span class="font-bold text-sm md:text-lg"> شماره تماس : </span>
                         <span><a href="tel:+989944792282"> 09944792282 </a></span>
                     </div>
-                    <div class="w-full flex flex-row flex-wrap justify-around">
-                        <span class="text-start"> متولد : </span>
+                    <div class="w-full flex flex-row mt-1 text-center flex-wrap justify-between items-center">
+                        <span class="font-bold text-sm md:text-lg"> متولد : </span>
                         <span> آبان - سال 1387 </span>
                     </div>
                 </div>
